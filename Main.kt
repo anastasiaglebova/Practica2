@@ -4,12 +4,11 @@ fun main(args: Array<String>) {
     val age2 = 21
 
     //zd 2
-    val avg1 = (age1 + age2) / 2
+    val avg1 = (age1.toDouble + age2.toDouble) / 2
+    println(avg1) 
     //Результат должен быть типа Double, а не Int.
 
     //zd 3
-    val avg1 = (age1.toDouble() + age2.toDouble()) / 2
-    println(avg1) 
     //После того, как добавили toDouble, мы получили нужный тип
 
     //zd 4
